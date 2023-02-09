@@ -33,7 +33,7 @@ echo "$users[1] $users[2]";
  ?>
 
      <form action="update.php" method="post">
-         <input type="hidden" name="id" value = "<? php> echo $users [0]?>">
+         <input type="hidden" name="id" value = "<?php echo $users [0]?>">
          <input type="text" name="firstname">
          <input type="text" name="lastname">
          <input type="submit" value="Обновить">

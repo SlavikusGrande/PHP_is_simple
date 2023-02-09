@@ -9,8 +9,6 @@ $query  = "INSERT INTO users (firstname, lastname) VALUES ('$firstname', '$lastn
 
 $result = mysqli_query($connect, $query);
 
-
-
 mysqli_close($connect);
 
 ?>
